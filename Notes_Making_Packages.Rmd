@@ -1,0 +1,40 @@
+---
+title: "Notes"
+author: "Juliette Verstaen"
+date: "5/31/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+library(devtools)
+library(roxygen2)
+
+```
+
+Build -> Load All
+- this will load again all the functions you've written in case you've changed things
+- if you get a warnining the the DESCRIPTION folder make sure there is an empty line at the end of it. R doesn't like no empty lines at the end for some reason
+
+Created a Repo on GitHuba nd now want to link it
+
+git remote add origin 'githttps://github.com/j-verstaen/calculate_fish_data.git'
+git remote add origin 'https://github.com/j-verstaen/calculate_fish_data.git'
+
+
+> git remote rm origin
+> git remote add origin 'https://github.com/j-verstaen/calculate_fish_data.git'
+> git pull origin master
+> cd '/GitHub/CalcFishing'
+> git push -u origin master
+> 
+
+
+
+
+
+
