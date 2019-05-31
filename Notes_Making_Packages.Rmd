@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 
 library(devtools)
+document()
 library(roxygen2)
 
 ```
@@ -27,11 +28,12 @@ git remote add origin 'https://github.com/j-verstaen/calculate_fish_data.git'
 
 
 > git remote rm origin
-> git remote add origin 'https://github.com/j-verstaen/calculate_fish_data.git'
+> git remote add origin 'https://github.com/j-verstaen/CalcFishing.git'
 > git pull origin master
-> cd '/GitHub/CalcFishing'
+> cd 
 > git push -u origin master
-> 
+
+
 
 
 
